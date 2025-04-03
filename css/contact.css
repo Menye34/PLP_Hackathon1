@@ -1,0 +1,12 @@
+/* contact.css */
+#contact {
+    background-color:#8f6de1;
+    color: #531e68;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: #531e68;
+    text-decoration: none;
+}

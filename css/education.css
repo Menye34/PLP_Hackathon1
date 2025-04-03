@@ -1,0 +1,30 @@
+/* Education Section */
+.education-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.education-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(241, 242, 247);
+    margin-bottom: 20px;
+}
+
+.education-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.education-box {
+    background-color: #302259;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

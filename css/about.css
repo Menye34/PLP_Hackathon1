@@ -1,0 +1,56 @@
+/* About Me Section */
+#about {
+    background-color: #fff;
+    color:#531e68;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-photo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-photo img {
+    width: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cv-download {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:  #531e68;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cv-download:hover {
+    background-color: #302259;
+}

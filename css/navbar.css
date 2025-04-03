@@ -1,0 +1,32 @@
+/* navbar.css */
+header {
+    background-color:#302259;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color:#531e68;
+    border-radius: 5px;
+}
